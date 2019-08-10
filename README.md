@@ -16,3 +16,7 @@ LED should be plugged into pins as follows
 .....P.............. 
 
 one pin onto ground labeled G, the other onto the GPIO pin 17 labeled P and put a 330 Ohm between the GPIO pin and the LED.
+
+command needs to run with permmisions
+
+docker run --privileged -d blinkled
